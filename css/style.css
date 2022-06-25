@@ -427,6 +427,10 @@ display: block;
  .info_content_text{
      text-align: left;
  }
+ .footer_button_text {
+  transform: translateY(-40px);
+  margin-left: 58px;
+ }
 }
 @media (max-width: 768px){
 .social {
@@ -479,6 +483,10 @@ flex-direction: column;
     margin-right: auto;
     text-align: center;
 }
+.footer_button_text {
+  transform: translateY(-20px);
+  margin-left: -40px;
+ }
 }
 @media (max-width: 640px) {
 .header, .service, .info, .blockquote, .clients, .steps{
@@ -537,7 +545,7 @@ margin-bottom: 40px;
     margin-left: 0;
 }
 }
-@media (max-width: 375px){
+@media (max-width: 390px){
     .social {
     margin-bottom: 30px;
     }
