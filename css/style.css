@@ -417,7 +417,7 @@ margin-bottom: 40px;
         max-width: 100%;
     }
 }
-@media (max-width: 920px) {
+@media (max-width: 960px) {
  .info_box{
 display: block; 
  }   
@@ -545,7 +545,7 @@ margin-bottom: 40px;
     margin-left: 0;
 }
 }
-@media (max-width: 390px){
+@media (max-width: 420px){
     .social {
     margin-bottom: 30px;
     }
@@ -582,8 +582,9 @@ margin-bottom: 40px;
         left: calc(50% + 10px);
     }
 }
-@media (max-width:340px) {
-    .info_slider {
-     width: 280px;
-    }
+@media (max-width:350px) {
+    .footer_button_text {
+      transform: translateY(-40px);
+      margin-left: 45px;
+     }
 }
